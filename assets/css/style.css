@@ -1,0 +1,235 @@
+/* The unviersal selector is establishing the box-sizng, padding, and margin for the basis of the page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* The element, body, is establishing a background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* The class selector, header, is establishing the padding, font-family, background-color, and color for the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* The class selector, header h1, is establishing the display structure and font size for header h1 */
+.header h1 {
+   display: inline-block;
+    font-size: 48px;
+} 
+
+/* The class selector, header h1 seo, is establishing the color for the partial seo of Horiseon */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* The class selector, header nav, is establishing the padding, margin, placement, and font family and size for the navigation links */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* The class selector, header nav ul, is removing the bullet points */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* The class selector, header nav ul li, is establishing the placement */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* The element, a, is establishing the color for a links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* The element, p, is establishing the font size for p links */
+p {
+    font-size: 16px;
+} 
+
+/* The class selector, hero, is establishing the height, width, margin bottom, background size and position, and the url for the digital marketing meeting picture */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* The class selector, float left, is establishing the margin and placement for the related element */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* The class selector, float right, is establishing the margin and placement for the related element */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* The class selector, content, is establishing the margin, width, and placement for the related element */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* The class selector, benefits, is establishing the margin, width, height, font family, background color, padding and placement for the related element */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* The class selector, benefit lead, is establishing the margin bottom and color for the related element */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* The class selector, benefit brand, is establishing the margin bottom and color for the related element */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* The class selector, benefit cost, is establishing the margin bottom and color for the related element */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* The class selector, benefit lead h3, is establishing the margin bottom and text placement for the related element header 3 */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* The class selector, benefit brand h3, is establishing the margin bottom and text placement for the related element header 3 */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* The class selector, benefit cost h3, is establishing the margin bottom and text placement for the related element header 3 */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* The class selector, benefit lead img, is establishing the margin, max width, and placement for the related image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* The class selector, benefit brand img, is establishing the margin, max width, and placement for the related image */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* The class selector, benefit cost img, is establishing the margin, max width, and placement for the related image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* The class selector, search engine optimization, is establishing the margin bottom, padding, height, font family, and background color and color for the related class */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The class selector, online reputation management, is establishing the margin bottom, padding, height, font family, and background color and color for the related class */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The class selector, social media marketing, is establishing the margin bottom, padding, height, font family, and background color and color for the related class */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The class selector, search engine optimization img, is establishing the max height for the related image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* The class selector, online reputation management img, is establishing the max height for the related image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* The class selector, social media marketing img, is establishing the max height for the related image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* The class selector, search engine optimization h2, is establishing the font size and margin bottom for the related header 2 */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The class selector, online reputation management h2, is establishing the font size and margin bottom for the related header 2 */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The class selector, social media marketing h2, is establishing the font size and margin bottom for the related header 2 */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The class selector, footer, is establishing the padding, font family, and aligning the text towards the middle for the footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* The class selector, footer h2, is establishing the font size for the related footer header 2 */
+.footer h2 {
+    font-size: 20px;
+}
