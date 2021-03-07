@@ -36,4 +36,4 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ---
 ## Screenshot 
-![clean-up homework] (assets/images/cleanup-homework.png)
+cleanup-homework.png![image](https://user-images.githubusercontent.com/76064980/110256184-82ee1e80-7f65-11eb-9d1b-1781dcf3fe1e.png)
